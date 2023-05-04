@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.MainPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="10"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label x:Name="EmployeeIDLabel" IsVisible="false" />
+            <Entry x:Name="FirstNameEntry" Placeholder="First Name"/>
+            <Entry x:Name="LastNameEntry" Placeholder="Last Name"/>
+            <Entry x:Name="EmailEntry" Placeholder="Email"/>
+            <Entry x:Name="PhoneEntry" Placeholder="Phone"/>
+            <Entry x:Name="AddressEntry" Placeholder="Address"/>
+            <DatePicker x:Name="HireDateDatePicker" Date="{Binding HireDate}"/>
+            <Entry x:Name="SalaryEntry" Placeholder="Salary" />
+            <StackLayout Orientation="Horizontal">
+                <Button Text="New Record" Clicked="OnClearClicked"  HorizontalOptions="Start" BackgroundColor="Green"/>
+                <Button Text="Create" Clicked="OnCreateClicked"  HorizontalOptions="Start" BackgroundColor="Gold" TextColor="Black"/>
+                <Button Text="Update" Clicked="OnUpdateClicked"  HorizontalOptions="Start" BackgroundColor="Navy"/>
+                <Button Text="Delete" Clicked="OnDeleteClicked"  HorizontalOptions="Start" BackgroundColor="Red"/>
+                <Button Text="View" Clicked="OnViewClicked"  HorizontalOptions="Start" BackgroundColor="DodgerBlue"/>
+            </StackLayout>
+            <StackLayout>
+                <ListView x:Name="employeesListView"
+          ItemsSource="{Binding Employees}"
+          HasUnevenRows="True"
+          SelectionMode="Single"
+          ItemSelected="OnItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Label FontSize="Medium" FontAttributes="Bold">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Full Name:"  FontSize="Medium"  FontAttributes="Bold"/>
+                                                <Span Text="{Binding FullName}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label FontSize="Medium" FontAttributes="Bold">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Email:"  FontSize="Medium"  FontAttributes="Bold"/>
+                                                <Span Text="{Binding Email}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label FontSize="Medium" FontAttributes="Bold">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Phone:"  FontSize="Medium"  FontAttributes="Bold"/>
+                                                <Span Text="{Binding Phone}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <BoxView HeightRequest="1" BackgroundColor="Gray" Margin="0,10,0,0" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

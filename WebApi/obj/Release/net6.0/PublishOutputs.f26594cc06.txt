@@ -1,0 +1,17 @@
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.exe
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.deps.json
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.runtimeconfig.json
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.pdb
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projects\Practice\MauiDemo\WebApi\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
