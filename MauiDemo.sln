@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiDemo", "MauiDemo\MauiDemo.csproj", "{8F01CC64-BA16-4C66-B5C5-85E74C6434DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{973D5D71-0AA7-4891-A3B2-7421F3F804C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{973D5D71-0AA7-4891-A3B2-7421F3F804C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiContentHub", "MauiContentHub\MauiContentHub.csproj", "{3B0C145D-618C-49F4-A90A-536D503C17DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,12 @@ Global
 		{973D5D71-0AA7-4891-A3B2-7421F3F804C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{973D5D71-0AA7-4891-A3B2-7421F3F804C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{973D5D71-0AA7-4891-A3B2-7421F3F804C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0C145D-618C-49F4-A90A-536D503C17DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0C145D-618C-49F4-A90A-536D503C17DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0C145D-618C-49F4-A90A-536D503C17DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3B0C145D-618C-49F4-A90A-536D503C17DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0C145D-618C-49F4-A90A-536D503C17DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0C145D-618C-49F4-A90A-536D503C17DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

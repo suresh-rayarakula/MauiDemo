@@ -1,0 +1,1 @@
+D:\Projects\Practice\MauiDemo\MauiContentHub\MauiContentHub.csproj;x64

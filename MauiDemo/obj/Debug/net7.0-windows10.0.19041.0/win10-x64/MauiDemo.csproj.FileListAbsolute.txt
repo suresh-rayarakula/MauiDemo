@@ -32,6 +32,7 @@ D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win1
 D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.CSharp.dll
@@ -322,4 +323,3 @@ D:\Projects\Practice\MauiDemo\MauiDemo\obj\Debug\net7.0-windows10.0.19041.0\win1
 D:\Projects\Practice\MauiDemo\MauiDemo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Projects\Practice\MauiDemo\MauiDemo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Projects\Practice\MauiDemo\MauiDemo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-D:\Projects\Practice\MauiDemo\MauiDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll

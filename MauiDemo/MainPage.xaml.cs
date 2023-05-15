@@ -8,7 +8,7 @@ public partial class MainPage : ContentPage
 {
     int count = 0;
     private readonly HttpClient _httpClient = new HttpClient();
-    private readonly string _apiUrl = "http://localhost:8010/api/Employee";
+    private readonly string _apiUrl = "http://172.20.10.2/api/Employee";
 
     public MainPage()
     {
